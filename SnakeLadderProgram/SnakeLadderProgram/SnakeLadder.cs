@@ -12,6 +12,9 @@ namespace SnakeLadderProgram
         {
             int position = 0;
             Console.WriteLine("The Position of the Player is: " + position);
+            Random random = new Random();
+            int dice = random.Next(1, 7);
+            Console.WriteLine("The number got by dice roll is: " + dice);
         }
     }
 }
