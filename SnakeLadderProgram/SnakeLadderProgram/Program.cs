@@ -13,7 +13,8 @@ namespace SnakeLadderProgram
             {
                 case 1:
                     SnakeLadder snakeLadder = new SnakeLadder();
-                    snakeLadder.Game();
+                    //snakeLadder.Game();
+                    snakeLadder.Ladder();
                     break;
             }
         }
