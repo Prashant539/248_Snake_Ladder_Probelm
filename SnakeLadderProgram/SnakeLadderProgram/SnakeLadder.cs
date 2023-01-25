@@ -43,9 +43,12 @@ namespace SnakeLadderProgram
                         Console.WriteLine("No Play");
                         break;
                 }
+                if(position1 > 100)
+                {
+                    position1 = 0;
+                }
                 Console.WriteLine("The Playr position is: " + position1);
-                
-
+            
             } while (position1 < 100);
         }
     }
